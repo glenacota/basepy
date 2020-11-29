@@ -37,6 +37,9 @@ How to install all development dependencies and how to run an automated test-sui
 `> pipenv shell`
 `> pipenv install --dev`
 
+To run the tests:
+`> pytest`
+
 ## Release History
 - 0.0.1
   - Work in progress
