@@ -1,4 +1,6 @@
 """Greet the user
 """
 
-print("Hi, you!")
+from libs.logger import log
+
+log().info("Hi, you!")
