@@ -6,7 +6,7 @@ import basepy
 
 def main():
     """ Run basepy script """
-    basepy
+    basepy.run()
 
 
 if __name__ == "__main__":

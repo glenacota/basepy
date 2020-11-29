@@ -1,6 +1,9 @@
-"""Greet the user
+"""Dummy module
 """
 
 from libs.logger import log
 
-log().info("Hi, you!")
+
+def run():
+    log().info("All is good!")
+    return True
