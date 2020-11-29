@@ -1,5 +1,5 @@
 # basepy
-> Opinionated layout for Python 3 projects.
+> Opinionated layout for Python 3 CLI projects.
 
 ![industry_robot](docs/construction_plan.png)
 
@@ -7,6 +7,7 @@
 - [Pipenv](https://pipenv.pypa.io/en/latest/) as package management tool.
 - [setuptools](https://setuptools.readthedocs.io/en/latest/) as build/distribution system.
 - [pytest](https://docs.pytest.org/en/latest/) as a test runner.
+- [click](https://click.palletsprojects.com/en/7.x/) as a package to build command line interfaces.
 
 ## How to use basepy
 1. Clone: `> git clone git@github.com:glenacota/basepy.git; cd basepy`
@@ -29,7 +30,7 @@ A few useful examples of how this project can be used.
 
 *[from pipenv]*
 
-`> python basepy`
+`> python basepy greet`
 
 ## Development setup
 How to install all development dependencies and how to run an automated test-suite.
@@ -41,6 +42,8 @@ To run the tests:
 `> pytest`
 
 ## Release History
+- 0.0.2
+  - Add CLI layout
 - 0.0.1
   - Work in progress
 
