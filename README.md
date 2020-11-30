@@ -1,5 +1,5 @@
 # basepy
-> Opinionated layout for Python 3 CLI projects.
+> Opinionated layout for Python 3 projects.
 
 ![industry_robot](docs/construction_plan.png)
 
@@ -30,7 +30,16 @@ A few useful examples of how this project can be used.
 
 *[from pipenv]*
 
+`# output a random greeting`
 `> python basepy greet`
+`# show help`
+`> python basepy greet --help`
+`# greet someone in particular`
+`> python basepy greet --names Super Mario`
+`# greet multiple persons`
+`> python basepy greet --names Super Mario,Luigi Mario`
+`# greet like a pirate`
+`> python basepy greet --names LeChuck --as-a-pirate`
 
 ## Development setup
 How to install all development dependencies and how to run an automated test-suite.
@@ -42,8 +51,6 @@ To run the tests:
 `> pytest`
 
 ## Release History
-- 0.0.2
-  - Add CLI layout
 - 0.0.1
   - Work in progress
 
