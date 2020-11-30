@@ -27,8 +27,10 @@ Different layouts are available in different branches. The list is below:
 ## Installation
 ### MacOs / Linux
 
-`> pipenv shell`
-`> pipenv install --ignore-pipfile`
+```
+> pipenv shell
+> pipenv install --ignore-pipfile
+```
 
 ## Usage example
 A few useful examples of how this project can be used.
@@ -40,8 +42,10 @@ A few useful examples of how this project can be used.
 ## Development setup
 How to install all development dependencies and how to run an automated test-suite.
 
-`> pipenv shell`
-`> pipenv install --dev`
+```
+> pipenv shell
+> pipenv install --dev
+```
 
 To run the tests:
 `> pytest`
