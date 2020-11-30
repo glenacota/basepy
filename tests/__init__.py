@@ -12,3 +12,4 @@ sys.path.append(api_path)
 def initlog():
     logger = logging.getLogger("defaultLogger")
     logger.propagate = True
+    logger.setLevel(logging.DEBUG)
