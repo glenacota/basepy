@@ -36,16 +36,18 @@ A few useful examples of how this project can be used.
 
 *[from pipenv]*
 
-`# output a random greeting`
-`> python basepy greet`
-`# show help`
-`> python basepy greet --help`
-`# greet someone in particular`
-`> python basepy greet --names Super Mario`
-`# greet multiple persons`
-`> python basepy greet --names Super Mario,Luigi Mario`
-`# greet like a pirate`
-`> python basepy greet --names LeChuck --as-a-pirate`
+```
+# output a random greeting
+> python basepy greet
+# show help
+> python basepy greet --help
+# greet someone in particular
+> python basepy greet --names Super Mario
+# greet multiple persons
+> python basepy greet --names Super Mario,Luigi Mario
+# greet like a pirate
+> python basepy greet --names LeChuck --as-a-pirate
+```
 
 ## Development setup
 How to install all development dependencies and how to run an automated test-suite.
