@@ -18,10 +18,9 @@ def greet(names, as_a_pirate):
     """ Greet someone """
     from helpers import greet
 
-    list_of_names = _parse_arg(names)
-    [click.echo(greet(name, as_a_pirate)) for name in list_of_names]
+    if names:
+        list_of_names = names.split(",")
+        [click.echo(greet(name, as_a_pirate)) for name in list_of_names]
+    else:
+        click.echo(greet(as_a_pirate=as_a_pirate))
     log().debug("All is good!")
-
-
-def _parse_arg(names):
-    return names.split(",") if names else [None]
