@@ -1,0 +1,19 @@
+name: Sample Workflow
+
+on:
+  push:
+    branches:
+    - main
+    - master
+
+jobs:
+  sample-job:
+    name: greet the audience
+    runs-on: ubuntu-latest
+    steps:
+    - name: Greet using echo
+      run: echo Hello World!
+    - name: Greet using a public action
+      uses: mscoutermarsh/ascii-art-action@master
+      with:
+        text: 'Hello World!'
